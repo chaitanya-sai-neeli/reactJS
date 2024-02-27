@@ -1,2 +1,2 @@
 # reactJS
-Namaste react
+Namaste react course which is taught by Akshay saini
