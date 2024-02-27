@@ -23,5 +23,5 @@ const parent = React.createElement("div", {id: "parent"}, [
     React.createElement("div", {id: "Child2"}, "Iam child 2")]);
 root.render(parent);
 console.log(parent); 
-console.log(parent); 
+
 
