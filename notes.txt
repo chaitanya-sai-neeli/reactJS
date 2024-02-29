@@ -1,0 +1,22 @@
+Episode 2 :
+npm is a package manager, that manages all the packages that we install in our system.
+
+Package.JSON is a configuration for npm.
+keeps track of what version of that package is installed in to our system.
+Need for package.JSON: packages which are sometimes called as dependencies...  
+Our project is dependant on lot of packages, those packages with the project is dependant on- are the dependencies and NPM manages them wisely(take care of version of package etc in package.JSON)
+
+
+Blundler: It is most important package in our project. Our whole code needs to be cleaned, blunded, minified, compressed before sending it to production, blunder serves that prupose. Its job is to bundle/package our app properly to ship it to production.
+Webpack, parcel and wheat are common examples of blundlers.
+There are 2 types of dependencies that our app can have:
+1.dev dependency (required in development phase/environment)
+2.normal dependencies (might be used in production as well)
+
+Caret and Tilde:
+Caret will update the dev dependencies of parcel to minor version (2.3.4 to < 3.0)
+Tilde will update the dev dependencies of parcel to major version (1.2.3 to 1.3 )
+
+Transitive dependencies: Parcel --> dependencies --> internal dependencies -->....
+
+We can regenerate our node_modules if we have package.JSON and package-lock.JSON so we need not to push node_modules to github
