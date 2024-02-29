@@ -7,7 +7,7 @@ Need for package.JSON: packages which are sometimes called as dependencies...
 Our project is dependant on lot of packages, those packages with the project is dependant on- are the dependencies and NPM manages them wisely(take care of version of package etc in package.JSON)
 
 
-Blundler: It is most important package in our project. Our whole code needs to be cleaned, blunded, minified, compressed before sending it to production, blunder serves that prupose. Its job is to bundle/package our app properly to ship it to production.
+Bundler: It is most important package in our project. Our whole code needs to be cleaned, bundled, minified, compressed before sending it to production, blunder serves that prupose. Its job is to bundle/package our app properly to ship it to production.
 Webpack, parcel and wheat are common examples of blundlers.
 There are 2 types of dependencies that our app can have:
 1.dev dependency (required in development phase/environment)
